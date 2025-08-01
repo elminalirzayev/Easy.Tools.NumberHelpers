@@ -1,7 +1,7 @@
 [![Build & Test](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml)
 [![Build & Release](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml)
 [![Build & Nuget Publish](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml)
-[![Release](https://img.shields.io/github/v/release/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/auc-automaticly-usb-copier/releases)
+[![Release](https://img.shields.io/github/v/release/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/releases)
 [![License](https://img.shields.io/github/license/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/blob/master/LICENSE.txt)
 
 # Easy.Tools.NumberHelpers
