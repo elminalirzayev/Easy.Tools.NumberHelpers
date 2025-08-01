@@ -1,3 +1,9 @@
+[![Build & Test](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml)
+[![Build & Release](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml)
+[![Build & Nuget Publish](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml)
+[![Release](https://img.shields.io/github/v/release/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/auc-automaticly-usb-copier/releases)
+[![License](https://img.shields.io/github/license/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/blob/master/LICENSE.txt)
+
 # Easy.Tools.NumberHelpers
 
 **Easy.Tools.NumberHelpers** is a .NET library that provides a rich set of extension methods for numeric operations. This package helps with common number manipulations such as clamping, rounding, percent calculations, and converting numbers to words in multiple languages.
