@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
 	  <PackageId>Easy.Tools.NumberHelpers</PackageId>
-	  <Version>1.0.2</Version>
+	  <Version>1.0.0</Version>
 	  <Authors>Elmin Alirzayev</Authors>
 	  <Company>Easy Code Tools</Company>
 	  <Description>This package provides a comprehensive set of number helper extensions for .NET, including calculations, conversions, and validations such as prime checks, clamping, rounding, Roman numeral conversions, and more.</Description>
