@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
 		<!--<TargetFramework>net8.0</TargetFramework>-->
-		<TargetFrameworks>net8.0;net6.0;net7.0;netstandard2.0;net48;net47</TargetFrameworks>
+		<TargetFrameworks>net8.0;net7.0;net6.0;net48;net47;netstandard2.1;netstandard2.0;</TargetFrameworks>
 		<LangVersion>10.0</LangVersion>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -11,7 +11,7 @@
 
 		<Title>Easy.Tools.NumberHelpers</Title>
 		<PackageId>Easy.Tools.NumberHelpers</PackageId>
-		<Version>1.0.4</Version>
+		<Version>1.0.5</Version>
 		<Authors>Elmin Alirzayev</Authors>
 		<Company>Easy Code Tools</Company>
 		<Description>This package provides a comprehensive set of number helper extensions for .NET, including calculations, conversions, and validations such as prime checks, clamping, rounding, Roman numeral conversions, and more.</Description>
