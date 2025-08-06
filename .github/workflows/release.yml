@@ -44,7 +44,7 @@ jobs:
         Compress-Archive -Path "publish/framework-dependent/${{ matrix.framework }}/*" -DestinationPath "framework-dependent-${{ matrix.framework }}.zip"
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: builds-${{ matrix.framework }}
         path: |
