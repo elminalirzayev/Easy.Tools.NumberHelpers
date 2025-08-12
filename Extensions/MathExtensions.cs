@@ -85,7 +85,7 @@ namespace Easy.Tools.NumberHelpers.Extensions
             while (b != 0) (a, b) = (b, a % b);
             return a;
         }
-      
+
         /// <summary>
         /// Calculates the least common multiple (LCM) of two integers.
         /// </summary>
