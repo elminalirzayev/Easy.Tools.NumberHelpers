@@ -1,9 +1,9 @@
-[![Build & Test](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/build.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/build.yml)
-[![Build & Release](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/release.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/release.yml)
-[![Build & Nuget Publish](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/nuget.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/actions/workflows/nuget.yml)
-[![Release](https://img.shields.io/github/v/release/elminalirzayev/Easy.Tools.NumberHelperss)](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/releases)
-[![License](https://img.shields.io/github/license/elminalirzayev/Easy.Tools.NumberHelperss)](https://github.com/elminalirzayev/Easy.Tools.NumberHelperss/blob/master/LICENSE.txt)
-[![NuGet](https://img.shields.io/nuget/v/Easy.Tools.NumberHelperss.svg)](https://www.nuget.org/packages/Easy.Tools.NumberHelperss)
+[![Build & Test](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/build.yml)
+[![Build & Release](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/release.yml)
+[![Build & Nuget Publish](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml/badge.svg)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/actions/workflows/nuget.yml)
+[![Release](https://img.shields.io/github/v/release/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/releases)
+[![License](https://img.shields.io/github/license/elminalirzayev/Easy.Tools.NumberHelpers)](https://github.com/elminalirzayev/Easy.Tools.NumberHelpers/blob/master/LICENSE.txt)
+[![NuGet](https://img.shields.io/nuget/v/Easy.Tools.NumberHelpers.svg)](https://www.nuget.org/packages/Easy.Tools.NumberHelpers)
 
 # Easy.Tools.NumberHelpers
 
