@@ -15,13 +15,13 @@
 
 Install via NuGet:
 
-```
+```bash
 dotnet add package Easy.Tools.NumberHelpers
 ```
 
 Or via NuGet Package Manager:
 
-```
+```bash
 Install-Package Easy.Tools.NumberHelpers
 ```
 
