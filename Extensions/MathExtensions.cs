@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
 
 namespace Easy.Tools.NumberHelpers.Extensions
 {
     /// <summary>
-    /// Provides extension methods for math calculations.
+    /// Provides extension methods for advanced math calculations.
     /// </summary>
     public static class MathExtensions
     {
@@ -20,19 +14,22 @@ namespace Easy.Tools.NumberHelpers.Extensions
         /// <param name="nearest">The nearest multiple to round to.</param>
         /// <returns>The rounded number.</returns>
         public static int RoundToNearest(this int value, int nearest)
-            => (int)(Math.Round((double)value / nearest) * nearest);
+        {
+            if (nearest == 0) return value;
+            return (int)(Math.Round((double)value / nearest) * nearest);
+        }
 
         /// <summary>
         /// Determines whether the number is even.
         /// </summary>
-        /// <param name="number">The number to check.</param>
+        /// <param name="number">The integer to check.</param>
         /// <returns>True if the number is even; otherwise, false.</returns>
         public static bool IsEven(this int number) => number % 2 == 0;
 
         /// <summary>
         /// Determines whether the number is odd.
         /// </summary>
-        /// <param name="number">The number to check.</param>
+        /// <param name="number">The integer to check.</param>
         /// <returns>True if the number is odd; otherwise, false.</returns>
         public static bool IsOdd(this int number) => number % 2 != 0;
 
@@ -57,15 +54,18 @@ namespace Easy.Tools.NumberHelpers.Extensions
         }
 
         /// <summary>
-        /// Calculates the factorial of a number using iteration.
+        /// Calculates the factorial of a number. Max input is 20 (limit of long).
         /// </summary>
         /// <param name="number">The non-negative integer to calculate the factorial of.</param>
         /// <returns>The factorial value as a long.</returns>
-        /// <exception cref="ArgumentOutOfRangeException">Thrown when the number is negative.</exception>
+        /// <exception cref="ArgumentOutOfRangeException">Thrown when number is negative or greater than 20.</exception>
         public static long Factorial(this int number)
         {
             if (number < 0)
                 throw new ArgumentOutOfRangeException(nameof(number), "Factorial is not defined for negative numbers.");
+
+            if (number > 20)
+                throw new ArgumentOutOfRangeException(nameof(number), "Result exceeds the range of a 64-bit integer. Max input is 20.");
 
             long result = 1;
             for (int i = 2; i <= number; i++)
@@ -82,6 +82,8 @@ namespace Easy.Tools.NumberHelpers.Extensions
         /// <returns>The greatest common divisor of the two integers.</returns>
         public static int GCD(this int a, int b)
         {
+            a = Math.Abs(a);
+            b = Math.Abs(b);
             while (b != 0) (a, b) = (b, a % b);
             return a;
         }
@@ -94,7 +96,12 @@ namespace Easy.Tools.NumberHelpers.Extensions
         /// <returns>The least common multiple of the two integers.</returns>
         public static int LCM(this int a, int b)
         {
-            return (a * b) / a.GCD(b);
+            if (a == 0 || b == 0) return 0;
+            int absA = Math.Abs(a);
+            int absB = Math.Abs(b);
+
+            // Optimization to prevent overflow: (a * b) / GCD -> (a / GCD) * b
+            return (absA / GCD(absA, absB)) * absB;
         }
     }
 }

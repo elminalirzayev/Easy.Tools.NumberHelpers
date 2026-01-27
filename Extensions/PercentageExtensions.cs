@@ -1,6 +1,7 @@
-﻿namespace Easy.Tools.NumberHelpers.Extensions
-{
+﻿using System;
 
+namespace Easy.Tools.NumberHelpers.Extensions
+{
     /// <summary>
     /// Extension methods for percentage-based calculations.
     /// </summary>
@@ -12,10 +13,12 @@
         /// <param name="value">The part value.</param>
         /// <param name="total">The total value.</param>
         /// <returns>The percentage that <paramref name="value"/> is of <paramref name="total"/>.</returns>
+        /// <exception cref="DivideByZeroException">Thrown when total is zero.</exception>
         public static double PercentageOf(this double value, double total)
         {
             if (total == 0)
                 throw new DivideByZeroException("Total value cannot be zero.");
+
             return (value / total) * 100;
         }
 
@@ -27,7 +30,7 @@
         /// <returns>The increased value.</returns>
         public static double IncreaseByPercent(this double value, double percent)
         {
-            return value + (value * (percent / 100));
+            return value * (1 + (percent / 100));
         }
 
         /// <summary>
@@ -38,8 +41,7 @@
         /// <returns>The decreased value.</returns>
         public static double DecreaseByPercent(this double value, double percent)
         {
-            return value - (value * (percent / 100));
+            return value * (1 - (percent / 100));
         }
-
     }
 }
